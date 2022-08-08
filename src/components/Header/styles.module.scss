@@ -1,0 +1,59 @@
+.headerContainer {
+    background: white;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  
+  .headerContent {
+    max-width: 1280px;
+    margin-inline: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  
+    button {
+      background: transparent;
+      border: none;
+      position: relative;
+  
+      div {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 0;
+        right: -16px;
+        background: #6ac1fc;
+        border-radius: 50%;
+        color: white;
+        font-size: .8rem;
+      }
+      &.finish{
+        width: 100%;
+        background: #6edd6e;
+        color : white;
+        height: 3rem;
+        margin-top:2rem;
+        font-size: 1.1rem;
+        border-radius:.25rem ;
+        transition: filter .3s;
+        &:hover{
+          filter: brightness(.9);
+        }
+      }
+    }
+  }
+  
+  .cartOpen {
+    width: 480px;
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    background-color: white;
+    padding: 2rem;
+    z-index: 5;
+  }
+  .cartClosed {
+    display: none;
+  }
+

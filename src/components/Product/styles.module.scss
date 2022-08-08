@@ -1,0 +1,53 @@
+.fruitsContent{
+    border: radius 0.5rem;
+    padding: 1rem;
+    background: white;
+    box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+    position: relative;
+    h3{
+        text-align: center;
+    }
+    
+    svg{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+        span{
+            flex:1;
+            text-align: center;
+            color:white;
+            background:#6edd7d;
+            padding-block: .25rem;
+            border: radius 0.25rem;
+        }
+
+    }
+    button{
+        width: 100%;
+        margin-top: 1rem;
+        border:none;
+        background: #6ac1fc;
+        padding-block:.5rem;
+        color:white;
+        font-weight: 700;
+        font-size: .9rem;
+        border-radius: .25rem;
+        transition: filter .3s;
+        &:hover{
+            filter: brightness(.9);
+        }
+
+    }
+}
+.nutrients{
+    position: absolute;
+    background: white;
+}

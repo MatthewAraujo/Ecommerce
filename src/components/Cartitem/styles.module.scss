@@ -1,0 +1,23 @@
+.cartitemContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & + .cartitemContent{
+        margin-top: 1rem;
+    }
+    h4{
+        width: 120px;
+    }
+}
+.cartitemControls{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    span{
+        justify-content: center;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #d7d7d7;
+    }
+}

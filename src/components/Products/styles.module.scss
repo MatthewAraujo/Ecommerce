@@ -1,0 +1,39 @@
+.productsContainer{
+    max-width: 1120px;
+    margin-inline:auto;
+    padding: 2rem;
+    h1{
+        text-align: center;
+    }
+}
+
+.productsContent{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    margin-top: 3rem;
+    
+}
+.closedFruitModal{
+    display: none;
+
+}
+.openFruitModal{
+    
+    width: 480px;
+    background: white;
+    z-index: 5;
+    position: absolute;
+    margin-inline: auto;
+
+    ul{
+        list-style: none;
+        margin-top: 1rem;
+    }
+    svg{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+}
